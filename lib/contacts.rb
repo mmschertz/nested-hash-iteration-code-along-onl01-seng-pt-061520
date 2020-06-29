@@ -13,6 +13,7 @@
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
   # }
+<<<<<<< HEAD
 
   def remove_strawberry(contacts)
   contacts.each do |person, contact_details_hash|
@@ -24,6 +25,13 @@
       end
     end
   end
+=======
+  
+  
+def remove_strawberry(contacts)
+contacts.each do |person, contact_details_hash|
+  binding.pry
+>>>>>>> e42d2948edcb96e37a7993ce7a1855d660e16799
 end
 
 
